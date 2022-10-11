@@ -7,6 +7,8 @@ html {
 body {
 	background-color: #fbfbfb;
 	margin:3em;
+	font-size: 16px;
+	font-family: "Times New Roman", Serif;
 }
 a{
 	text-decoration: none;
@@ -25,7 +27,7 @@ ul{
 	display: inline-block;
 }
 h1{
-	font-size: 1.5rem;
+	font-size:  1rem;
 	margin: 0 0 1em;
 }
 p{

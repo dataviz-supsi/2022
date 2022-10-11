@@ -7,6 +7,96 @@ html {
 body {
 	background-color: #fbfbfb;
 	margin:  0;
+	font-size: 16px;
+	font-family: "Times New Roman", Serif;
+}
+/* ---- layout  -----*/
+
+footer{
+	margin: 1rem 0 0 0;
+}
+.link {
+	margin-left: -1.25em;
+}
+.link:before {
+	display: inline-block;
+	width: 1.25em;
+	content: "→";
+}
+hr{
+	opacity: 0.2;
+	margin:1em 0 1em 0;
+}
+figure{
+	margin: 0;
+}
+img{
+	max-width: 100%;
+	height:  auto;
+}
+#topbar {
+	position: absolute;
+	top:  0;
+	width: 100%;
+	padding: 1rem 3%;
+	height: 3rem;
+	position: fixed;
+	background-color: #fbfbfb;
+	color: red;
+	box-shadow: 0 2px 10px rgb(0 0 0 / 20%);
+	z-index: 1;
+}
+#topbar nav {
+	display: flex;
+	justify-content: start;
+}
+#topbar nav div {
+	margin-right: 10px;
+}
+main{
+	margin-top: 3rem;
+	position: absolute;
+}
+header, article, footer {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+header {
+	margin-top: 3rem;
+	margin-bottom: 10rem;
+}
+.go_home a:hover{
+	text-decoration: none;
+}
+
+/* ---- typography -----*/
+
+h1 {
+	font-size: 2.1rem;
+	font-weight: bold;
+	margin: 0 0 0.5rem;
+}
+h2 {
+	font-size: 1.7rem;
+	font-weight: normal;
+	margin: 0 0 1rem;
+}
+h3 {
+	font-size: 1rem;
+	font-weight: normal;
+	margin: 0 0 1rem;
+}
+h4 {
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin: 0 0 1rem;
+}
+p{
+	font-size: 1.1rem;
+	margin: 0 0 1rem;
+}
+figcaption{
+	font-size: 0.8rem;
 }
 a{
 	text-decoration: none;
@@ -24,55 +114,23 @@ ul{
 	width: 200px;
 	display: inline-block;
 }
-h1{
-	font-size:  1rem;
-	margin: 0 0 1em;
-}
-p{
-	margin:0;
-}
-footer{
-	margin:0 0 0 0;
-}
-.link {
-	margin-left: -1.25em;
-}
-.link:before {
-	display: inline-block;
-	width: 1.25em;
-	content: "→";
-}
-hr{
-	opacity: 0.2;
-	margin:1em 0 1em 0;
+#abstract{
+	font-size: 1.7rem;
+	margin-bottom: 2rem;
 }
 
-#header {
-	position: absolute;
-	top:  0;
-	width: 100%;
-	padding: 1rem 0.5rem;
-	position: fixed;
-	background-color: snow;
-	color: red;
-	box-shadow: 0 2px 10px rgb(0 0 0 / 20%);
-}
-#header nav {
-	display: flex;
-	justify-content: start;
-}
-#header nav div {
-	margin-right: 10px;
-}
-main{
-	margin-top: 5rem;
-}
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 	.author {
 		display: block;
 	}
 	li {
 		margin-bottom: 1em;
+	}
+	header, article, footer {
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+	#abstract{
+		column-count: 1;
 	}
 }
