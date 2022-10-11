@@ -57,8 +57,8 @@ main{
 	margin-top: 3rem;
 	position: absolute;
 }
-header, article, footer {
-	margin-left: 20%;
+header, article, footer section {
+	margin-left: 25%;
 	margin-right: 20%;
 }
 header {
@@ -67,6 +67,24 @@ header {
 }
 .go_home a:hover{
 	text-decoration: none;
+}
+section{
+	margin-bottom: 3rem;
+}
+figure{
+	margin: 1rem 0;
+}
+footer {
+	margin-bottom: 3rem;
+	border-top: 1px solid #d0d0d0;
+	padding-top: 3rem;
+}
+footer section {	
+	display: flex;
+	justify-content: space-between;
+}
+footer section div{
+	width: 45%;
 }
 
 /* ---- typography -----*/
@@ -89,7 +107,7 @@ h3 {
 h4 {
 	font-size: 1.2rem;
 	font-weight: bold;
-	margin: 0 0 1rem;
+	margin: 0 0 0.5rem;
 }
 p{
 	font-size: 1.1rem;
@@ -118,6 +136,11 @@ ul{
 	font-size: 1.7rem;
 	margin-bottom: 2rem;
 }
+.no_margin figure figcaption{
+	padding: 0 3%;
+}
+
+/* ---- tablet version -----*/
 
 @media only screen and (max-width: 768px) {
 	.author {
@@ -126,11 +149,8 @@ ul{
 	li {
 		margin-bottom: 1em;
 	}
-	header, article, footer {
-		margin-left: 3%;
-		margin-right: 3%;
-	}
-	#abstract{
-		column-count: 1;
+	header, article, footer section {
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 }
