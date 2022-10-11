@@ -79,6 +79,11 @@ figure{
 	max-width: 100%;
 	height: auto;
 }
+.download {
+	display: flex;
+	justify-content: space-between;
+	margin: 1rem 30%;
+}
 
 /* ---- footer -----*/
 
