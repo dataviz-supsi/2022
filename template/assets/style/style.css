@@ -143,6 +143,12 @@ ul{
 /* ---- tablet version -----*/
 
 @media only screen and (max-width: 768px) {
+	h1 {
+		font-size: 1.9rem;
+	}
+	h2, #abstract {
+		font-size: 1.5rem;
+	}
 	.author {
 		display: block;
 	}
