@@ -10,11 +10,8 @@ body {
 	font-size: 16px;
 	font-family: "Times New Roman", Serif;
 }
-/* ---- layout  -----*/
+/* ---- overal layout  -----*/
 
-footer{
-	margin: 1rem 0 0 0;
-}
 .link {
 	margin-left: -1.25em;
 }
@@ -63,7 +60,7 @@ header, article, footer section {
 }
 header {
 	margin-top: 3rem;
-	margin-bottom: 10rem;
+	margin-bottom: 7rem;
 }
 .go_home a:hover{
 	text-decoration: none;
@@ -74,6 +71,17 @@ section{
 figure{
 	margin: 1rem 0;
 }
+
+/* ---- data visualizations -----*/
+
+#dataviz_01 {
+	border:  none;
+	max-width: 100%;
+	height: auto;
+}
+
+/* ---- footer -----*/
+
 footer {
 	margin-bottom: 3rem;
 	border-top: 1px solid #d0d0d0;
