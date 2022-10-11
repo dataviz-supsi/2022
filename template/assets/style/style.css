@@ -159,4 +159,11 @@ ul{
 		margin-left: 5%;
 		margin-right: 5%;
 	}
+	footer section{
+		display: block;
+	}
+	footer section div:nth-child(1) {
+		margin-bottom: 3rem;
+	}
+
 }
