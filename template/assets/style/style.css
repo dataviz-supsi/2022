@@ -1,0 +1,78 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	background-color: #fbfbfb;
+	margin:  0;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	text-decoration: underline;
+}
+ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+.author {
+	width: 200px;
+	display: inline-block;
+}
+h1{
+	font-size:  1rem;
+	margin: 0 0 1em;
+}
+p{
+	margin:0;
+}
+footer{
+	margin:0 0 0 0;
+}
+.link {
+	margin-left: -1.25em;
+}
+.link:before {
+	display: inline-block;
+	width: 1.25em;
+	content: "→";
+}
+hr{
+	opacity: 0.2;
+	margin:1em 0 1em 0;
+}
+
+#header {
+	position: absolute;
+	top:  0;
+	width: 100%;
+	padding: 1rem 0.5rem;
+	position: fixed;
+	background-color: snow;
+	color: red;
+	box-shadow: 0 2px 10px rgb(0 0 0 / 20%);
+}
+#header nav {
+	display: flex;
+	justify-content: start;
+}
+#header nav div {
+	margin-right: 10px;
+}
+main{
+	margin-top: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+	.author {
+		display: block;
+	}
+	li {
+		margin-bottom: 1em;
+	}
+}
