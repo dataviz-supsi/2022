@@ -14,6 +14,10 @@
 		<meta name="msapplication-navbutton-color" content="black"> <!-- Windows Phone -->
 		<meta name="apple-mobile-web-app-status-bar-style" content="black"> <!-- iOS Safari -->
 		<link type="text/css" rel="stylesheet" href="assets/style/style.css">
+
+		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js'></script>
+    	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet' />
+
 	</head>
 	<body>
 		<div id="topbar">
@@ -110,10 +114,14 @@
 					<p>
 						Nam suscipit viverra libero, et accumsan ipsum dictum vitae. Quisque nec felis ac quam faucibus accumsan. Vestibulum pharetra, augue at interdum euismod, ligula nibh gravida sem, at pretium dolor lacus ut augue. Donec lobortis, enim consectetur finibus facilisis, justo felis malesuada nunc, at convallis justo est eget libero. Suspendisse potenti. Donec id lobortis lectus. Sed felis ante, convallis in orci eu, commodo elementum velit. Donec accumsan elit nisl, non ornare orci euismod ut. Morbi ipsum ligula, vehicula eu magna auctor, dapibus laoreet justo. Donec rhoncus mi sed interdum tincidunt. Mauris pellentesque efficitur nisl non hendrerit.
 					</p>
+					
+					<!-- <iframe width='100%' height='400px' src="https://api.mapbox.com/styles/v1/gprofeta/clajbywuh001e14qb4g910p5y.html?title=false&access_token=pk.eyJ1IjoiZ3Byb2ZldGEiLCJhIjoiY2oxMXoydThvMDAyNTJ3b2dpdXNpZzVmNyJ9.kj4DsDQzoFrUUdiqrie5sQ&zoomwheel=false#10/53.957113/-1.086675" title="Wi-fi" style="border:none;"></iframe> -->
 
-					<iframe width='100%' height='600px' src="https://api.mapbox.com/styles/v1/gprofeta/clai7gyxx001215qm1owy0k7o.html?title=false&access_token=pk.eyJ1IjoiZ3Byb2ZldGEiLCJhIjoiY2oxMXoydThvMDAyNTJ3b2dpdXNpZzVmNyJ9.kj4DsDQzoFrUUdiqrie5sQ&zoomwheel=false#9.62/42.3302/-88.0012" title="Birth" style="border:none; margin: 1rem 0 3rem;"></iframe>
 				</section>
 			</article>
+			
+			<div id="map"></div>
+			
 			<footer>
 				<section>
 					<div>
@@ -132,5 +140,43 @@
 				</section>
 			</footer>
 		</main>
+
+		<script>
+			console.log("works!")
+
+			mapboxgl.accessToken = 'pk.eyJ1IjoiZ3Byb2ZldGEiLCJhIjoiY2oxMXoydThvMDAyNTJ3b2dpdXNpZzVmNyJ9.kj4DsDQzoFrUUdiqrie5sQ';
+
+			const map = new mapboxgl.Map({
+				container: 'map',
+				style: 'mapbox://styles/gprofeta/clajbywuh001e14qb4g910p5y', 
+				center: [-1.086675,53.957113],
+				zoom: 12
+			});
+
+			map.addControl(new mapboxgl.NavigationControl());
+
+			map.on('click', (event) => {
+				const features = map.queryRenderedFeatures(event.point, {
+					layers: ['data-driven-circles']
+				});
+				if (!features.length) {
+				return;
+				}
+				const feature = features[0];
+
+				const popup = new mapboxgl.Popup({
+					offset: [0, -10] 
+				})
+				.setLngLat(feature.geometry.coordinates)
+				.setHTML(
+					"<p>" + feature.properties.Ref + " " + feature.properties.Street + "</p>"
+				)
+				.addTo(map);
+
+				console.log(feature.properties)
+			});
+
+		</script>
+
 	</body>
 </html>
