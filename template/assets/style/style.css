@@ -87,7 +87,7 @@ figure{
 
 #map {
 	width: 100%;
-	height: 600px;
+	height: 400px;
 }
 
 .mapboxgl-popup-content p {
@@ -164,6 +164,14 @@ figcaption{
 }
 .no_margin figcaption {
 	padding: 0 3%;
+}
+#abstract {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2rem;
+	line-height: 140%;
+	background-color: #fbf3f3;
+	color: #0F6DBF;
+	padding: 1rem;
 }
 
 /* ---- tablet version -----*/

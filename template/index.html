@@ -17,7 +17,13 @@
 
 		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js'></script>
     	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet' />
-
+	
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+	
 	</head>
 	<body>
 		<div id="topbar">
@@ -36,7 +42,9 @@
 		</div>
 		<main>
 			<header>
-				<h1>This is the project title</h1>
+				<h1>
+					This is the project title <i class="bi bi-balloon"></i>
+				</h1>
 				<h2>This is the project subtitle</h2>
 				<h3>by Author n. 1, Author n. 2</h3>
 			</header>
@@ -114,9 +122,6 @@
 					<p>
 						Nam suscipit viverra libero, et accumsan ipsum dictum vitae. Quisque nec felis ac quam faucibus accumsan. Vestibulum pharetra, augue at interdum euismod, ligula nibh gravida sem, at pretium dolor lacus ut augue. Donec lobortis, enim consectetur finibus facilisis, justo felis malesuada nunc, at convallis justo est eget libero. Suspendisse potenti. Donec id lobortis lectus. Sed felis ante, convallis in orci eu, commodo elementum velit. Donec accumsan elit nisl, non ornare orci euismod ut. Morbi ipsum ligula, vehicula eu magna auctor, dapibus laoreet justo. Donec rhoncus mi sed interdum tincidunt. Mauris pellentesque efficitur nisl non hendrerit.
 					</p>
-					
-					<!-- <iframe width='100%' height='400px' src="https://api.mapbox.com/styles/v1/gprofeta/clajbywuh001e14qb4g910p5y.html?title=false&access_token=pk.eyJ1IjoiZ3Byb2ZldGEiLCJhIjoiY2oxMXoydThvMDAyNTJ3b2dpdXNpZzVmNyJ9.kj4DsDQzoFrUUdiqrie5sQ&zoomwheel=false#10/53.957113/-1.086675" title="Wi-fi" style="border:none;"></iframe> -->
-
 				</section>
 			</article>
 			
@@ -140,6 +145,7 @@
 				</section>
 			</footer>
 		</main>
+
 
 		<script>
 			console.log("works!")
@@ -173,7 +179,6 @@
 				)
 				.addTo(map);
 
-				console.log(feature.properties)
 			});
 
 		</script>
