@@ -71,6 +71,11 @@ section{
 figure{
 	margin: 1rem 0;
 }
+#icons {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
 
 /* ---- data visualizations -----*/
 
@@ -165,14 +170,23 @@ figcaption{
 .no_margin figcaption {
 	padding: 0 3%;
 }
+@font-face {
+	font-family: "Ubuntu";
+	src: local("Ubuntu"), url("../font/Ubuntu/Ubuntu-Regular.ttf") format(truetype);
+	font-style: normal;
+	font-weight: regular;
+}
 #abstract {
-	font-family: 'Roboto', sans-serif;
-	font-size: 2rem;
-	line-height: 140%;
-	background-color: #fbf3f3;
+	font-family: "Ubuntu";
+	font-style: normal;
+	font-weight: regular;
+	font-size: 1.2rem;
+	line-height: 130%;
+	background-color: #f3f2f2;
 	color: #0F6DBF;
 	padding: 1rem;
 }
+
 
 /* ---- tablet version -----*/
 
