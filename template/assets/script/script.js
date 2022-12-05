@@ -80,15 +80,64 @@ function listener(element){
 }
 
 // =================
-// 
+// highlight
 
+function highlight(){
 
+    const flows = dv1.contentDocument.documentElement.getElementById("flows").querySelectorAll("g")
 
+    flows.forEach(function(el){
+
+        el.addEventListener("mouseenter", function(){
+            flows.forEach(function(a){
+                a.style.opacity = 0.3
+            })
+            this.style.opacity = 1
+        })
+
+        el.addEventListener("mouseleave", function(){
+            flows.forEach(function(a){
+                a.style.opacity = 1
+            })
+        })
+    })
+}
+
+// =================
+// switch
+
+function mySwitch(){
+    const button = document.getElementById("switch")  
+    const contentA = document.getElementById("switch_contentA")
+    const contentB = document.getElementById("switch_contentB")
+
+    let content = "A"
+
+    button.addEventListener("click", function(){
+        console.log("A")
+
+        if (content == "A"){
+            contentB.style.display = "block"
+            contentA.style.display = "none"
+            content = "B"
+
+            button.textContent = "show A"
+        }
+        else {
+            contentA.style.display = "block"
+            contentB.style.display = "none"
+            content = "A"
+
+            button.textContent = "show B"
+        }
+    })
+
+}
 // =================
 // page load
 
 window.addEventListener("load", function(){
-    // highlight()
-    // mySwitch()
+    highlight()
+    mySwitch()
     // droppdown()
 })

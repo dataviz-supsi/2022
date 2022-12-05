@@ -135,7 +135,7 @@
         <title>Wind: 0.08</title>
       </rect>
     </g>
-    <g fill="none" stroke-opacity="1">
+    <g fill="none" stroke-opacity="1" id="flows">
       <g style="mix-blend-mode: multiply;">
         <path d="M5,590.9242581342494C970,590.9242581342494,970,608.3593839394008,1935,608.3593839394008" stroke="rgb(240, 112, 74)" stroke-width="2.9837288601048124"/>
         <title>Coal reserves → Coal: 63.96</title>

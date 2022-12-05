@@ -100,7 +100,6 @@ function map(){
             append_markers(category);	
             set_map();
         })
-    
     } 
 }
 
