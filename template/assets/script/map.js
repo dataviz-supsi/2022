@@ -1,7 +1,7 @@
 function map(){
     const map_contaier = "map01";
-    let min_zoom = 5;
-    let max_zoom = 13;
+    let min_zoom = 10;
+    let max_zoom = 15;
     let map_center = [8.976,45.593];
 
     const data_link = "assets/data/map-data.json";
@@ -29,7 +29,7 @@ function map(){
         
         let map = L.map(map_contaier, {
             center: map_center,
-            zoom: max_zoom
+            zoom: min_zoom
         });
     
         function make_map(){ 
