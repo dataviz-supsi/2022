@@ -44,7 +44,7 @@ function map(){
 
         function set_map(){
             map.fitBounds(bounds, {
-                "padding": [20, 20], // 260, 300
+                "padding": [20, 20],
                 "animate": true,
                 "duration": 2
             });			
@@ -67,7 +67,6 @@ function map(){
 
                 let lat = entry.geometry.coordinates[0];
                 let lon = entry.geometry.coordinates[1];
-                // console.log(lon,lat)
 
                 markers = L.marker([lon,lat], {
                     icon: myIcon

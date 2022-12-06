@@ -114,7 +114,6 @@ function mySwitch(){
     let content = "A"
 
     button.addEventListener("click", function(){
-        console.log("A")
 
         if (content == "A"){
             contentB.style.display = "block"
@@ -133,19 +132,19 @@ function mySwitch(){
     })
 }
 
-function droppdown(){
+function dropdown(){
     const dropdown = document.getElementById("dropdown")
     const figures = document.querySelectorAll(".figure")
 
     dropdown.addEventListener("change", function(){
         let content = dropdown.value
-        console.log(content)
 
         figures.forEach(function(a){
             a.style.display = "none"
         })
 
-        let elem = document.getElementById("dropdown_content" + content)
+        let id = "dropdown_content" + content
+        let elem = document.getElementById(id)
         elem.style.display = "block"
     })
 }
@@ -157,5 +156,5 @@ function droppdown(){
 window.addEventListener("load", function(){
     highlight()
     mySwitch()
-    droppdown()
+    dropdown()
 })

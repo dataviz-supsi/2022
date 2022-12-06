@@ -245,3 +245,7 @@ figcaption{
 #dropdown_contentB, #dropdown_contentC {
 	display: none;
 }
+
+.dropdown {
+	width: 100%;
+}
