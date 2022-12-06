@@ -131,13 +131,31 @@ function mySwitch(){
             button.textContent = "show B"
         }
     })
-
 }
+
+function droppdown(){
+    const dropdown = document.getElementById("dropdown")
+    const figures = document.querySelectorAll(".figure")
+
+    dropdown.addEventListener("change", function(){
+        let content = dropdown.value
+        console.log(content)
+
+        figures.forEach(function(a){
+            a.style.display = "none"
+        })
+
+        let elem = document.getElementById("dropdown_content" + content)
+        elem.style.display = "block"
+    })
+}
+
+
 // =================
 // page load
 
 window.addEventListener("load", function(){
     highlight()
     mySwitch()
-    // droppdown()
+    droppdown()
 })

@@ -241,3 +241,7 @@ figcaption{
 #switch_contentB, #switch_contentC {
 	display: none;
 }
+
+#dropdown_contentB, #dropdown_contentC {
+	display: none;
+}
