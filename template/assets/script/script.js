@@ -133,7 +133,7 @@ function mySwitch(){
 }
 
 function dropdown(){
-    const dropdown = document.getElementById("dropdown")
+    const dropdown = document.getElementById("myDropdown")
     const figures = document.querySelectorAll(".figure")
 
     dropdown.addEventListener("change", function(){
