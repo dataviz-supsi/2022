@@ -71,3 +71,14 @@ function droppdown(){
     })
 }
 
+
+// =====
+
+
+// const div = document.createElement("div");
+            // let content = document.createTextNode("test");
+
+            // div.id = "sidebar"
+
+            // div.appendChild(content);
+            // document.getElementById("map02").append(div);

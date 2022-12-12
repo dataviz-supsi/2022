@@ -89,9 +89,6 @@
 						
 						Aenean arcu purus, lobortis sed laoreet a, venenatis eu magna. Nulla nec vulputate quam. Phasellus dolor augue, volutpat mattis eleifend quis, finibus cursus felis. Pellentesque mi magna, blandit ac tristique ut, auctor sit amet lectus. Curabitur ac justo quis sem venenatis rhoncus. Donec dolor lectus, tincidunt vel sapien eget, semper commodo lorem. In hac habitasse platea dictumst. Etiam pellentesque urna ut mauris malesuada, vel porta orci fringilla. Nulla facilisi. In scelerisque in erat hendrerit dapibus.
 					</p>
-					<p>
-						Nam suscipit viverra libero, et accumsan ipsum dictum vitae. Quisque nec felis ac quam faucibus accumsan. Vestibulum pharetra, augue at interdum euismod, ligula nibh gravida sem, at pretium dolor lacus ut augue. Donec lobortis, enim consectetur finibus facilisis, justo felis malesuada nunc, at convallis justo est eget libero. Suspendisse potenti. Donec id lobortis lectus. Sed felis ante, convallis in orci eu, commodo elementum velit. Donec accumsan elit nisl, non ornare orci euismod ut. Morbi ipsum ligula, vehicula eu magna auctor, dapibus laoreet justo. Donec rhoncus mi sed interdum tincidunt. Mauris pellentesque efficitur nisl non hendrerit.
-					</p>
 					<a name="switch"></a>
 					<button id="switch">switch image</button>
 					<figure id="switch_contentA" class="figure">
@@ -153,11 +150,35 @@
 			</article>
 			<section class="no_margin">
 				<a name="filtered-map"></a>
-				<select id="map_select" style="width: 90%; margin: 0 5% 1rem;" class="dropdown">
+				<select id="map01_select" style="width: 90%; margin: 0 5% 1rem;" class="dropdown">
 					<option>A</option>
 					<option>B</option>
 				</select>
 				<div id="map01"></div>
+			</section>
+			<article>
+				<section>
+					<h4>
+						Paragraph title
+					</h4>
+					<p>
+						Aenean commodo vehicula massa, id pellentesque sapien volutpat id. Nunc leo turpis, condimentum non nisl id, rutrum ultricies ex. In purus risus, accumsan in dictum at, mattis malesuada mi. Aliquam pulvinar sagittis auctor. In ut lorem mollis, interdum massa dictum, posuere libero. Aliquam at feugiat diam, in dapibus lacus. Maecenas porta efficitur elit quis ullamcorper. Quisque blandit turpis ut ante venenatis mattis. Proin tincidunt nunc vitae ante viverra, vitae vehicula tortor consectetur. Vivamus porttitor rhoncus ante ac congue. Pellentesque nec ipsum nisl. Integer sodales dignissim arcu, ac sagittis lectus malesuada a. Nunc imperdiet nisi non vulputate pulvinar. Donec interdum condimentum nunc eu ultrices.
+					</p>
+					<p>
+						Nam suscipit viverra libero, et accumsan ipsum dictum vitae. Quisque nec felis ac quam faucibus accumsan. Vestibulum pharetra, augue at interdum euismod, ligula nibh gravida sem, at pretium dolor lacus ut augue. Donec lobortis, enim consectetur finibus facilisis, justo felis malesuada nunc, at convallis justo est eget libero. Suspendisse potenti. Donec id lobortis lectus. Sed felis ante, convallis in orci eu, commodo elementum velit. Donec accumsan elit nisl, non ornare orci euismod ut. Morbi ipsum ligula, vehicula eu magna auctor, dapibus laoreet justo. Donec rhoncus mi sed interdum tincidunt. Mauris pellentesque efficitur nisl non hendrerit.
+					</p>
+				</section>
+			</article>
+			<section class="no_margin">
+				<a name="map-with-sidebar"></a>
+				<select id="map02_select" style="width: 90%; margin: 0 5% 1rem;" class="dropdown">
+					<option>A</option>
+					<option>B</option>
+				</select>
+				<div id="map02_container">
+					<div id="map02"></div>
+					<div id="sidebar_map02"></div>
+				</div>
 			</section>
 			
 			<!-- <div id="map"></div> -->
@@ -203,43 +224,9 @@
 			</footer>
 		</main>
 
-		<!-- <script>
-
-			mapboxgl.accessToken = 'pk.eyJ1IjoiZ3Byb2ZldGEiLCJhIjoiY2oxMXoydThvMDAyNTJ3b2dpdXNpZzVmNyJ9.kj4DsDQzoFrUUdiqrie5sQ';
-
-			const map = new mapboxgl.Map({
-				container: 'map',
-				style: 'mapbox://styles/gprofeta/clajbywuh001e14qb4g910p5y', 
-				center: [-1.086675,53.957113],
-				zoom: 12
-			});
-
-			map.addControl(new mapboxgl.NavigationControl());
-
-			map.on('click', (event) => {
-				const features = map.queryRenderedFeatures(event.point, {
-					layers: ['data-driven-circles']
-				});
-				if (!features.length) {
-				return;
-				}
-				const feature = features[0];
-
-				const popup = new mapboxgl.Popup({
-					offset: [0, -10] 
-				})
-				.setLngLat(feature.geometry.coordinates)
-				.setHTML(
-					"<p>" + feature.properties.Ref + " " + feature.properties.Street + "</p>"
-				)
-				.addTo(map);
-
-			});
-
-		</script> -->
-
 		<script src="assets/script/script.js" ></script>
-		<script src="assets/script/map.js"></script>
+		<script src="assets/script/map_01.js"></script>
+		<script src="assets/script/map_02.js"></script>
 
 	</body>
 </html>

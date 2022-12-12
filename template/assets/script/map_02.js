@@ -1,5 +1,5 @@
-function map(){
-    const map_contaier = "map01";
+function map02(){
+    const map_contaier = "map02";
     let min_zoom = 10;
     let max_zoom = 15;
     let map_center = [8.976,45.593];
@@ -50,6 +50,29 @@ function map(){
             });			
         }
 
+        function mySidebar(category){
+            const sidebar = document.getElementById("sidebar_map02")
+            sidebar.innerHTML = "";
+
+            let features = data.features;
+
+            let filter = features.filter(function(a,b){
+                return a.properties.category == category
+            })
+            
+            filter.forEach(function(entry){
+                let name = entry.properties.name 
+                let lat = entry.geometry.coordinates[0];
+                let lon = entry.geometry.coordinates[1];
+
+                let item = document.createElement("li");
+
+                item.innerHTML =  name + "</br>" + lat + " - "+lon;
+
+                sidebar.appendChild(item);
+            })
+        }
+
         // append markers
         function append_markers(category){
 
@@ -83,9 +106,11 @@ function map(){
         make_map();
         append_markers(category);
         set_map();
+        mySidebar(category);
+
 
         // filter items by category
-        map_select = document.getElementById("map_select")
+        map_select = document.getElementById("map02_select")
 
         map_select.addEventListener ("change", function () {
             category = this.value;
@@ -98,11 +123,12 @@ function map(){
             make_map();
             append_markers(category);	
             set_map();
+            mySidebar(category);
         })
     } 
 }
 
 
 window.addEventListener("load", function(){
-    map()
+    map02()
 })
