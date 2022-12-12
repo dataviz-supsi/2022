@@ -82,6 +82,49 @@
 				],
 				"type": "Point"
 			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"category": "B",
+				"name": "B.4"
+			},
+			"geometry": {
+				"coordinates": [
+					8.983297664480318,
+					45.8701173356211
+				],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"category": "B",
+				"name": "B.5"
+			},
+			"geometry": {
+				"coordinates": [
+					8.977015996503013,
+					45.87166932356345
+				],
+				"type": "Point"
+			}
+		}
+		,
+		{
+			"type": "Feature",
+			"properties": {
+				"category": "B",
+				"name": "B.5"
+			},
+			"geometry": {
+				"coordinates": [
+					8.977421265404814,
+					45.86778927245072
+				],
+				"type": "Point"
+			}
 		}
 	]
 }
