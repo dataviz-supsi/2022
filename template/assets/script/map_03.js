@@ -1,4 +1,8 @@
-function map03(){ // https://leafletjs.com/examples/choropleth/
+// code based on the following projects
+// https://codepen.io/nettaben/pen/qBEGPyO
+// https://leafletjs.com/examples/choropleth/
+
+function map03(){ 
     const map_contaier = "map03";
     let min_zoom = 4;
     let max_zoom = 8;
@@ -24,7 +28,7 @@ function map03(){ // https://leafletjs.com/examples/choropleth/
         })
     
     function load_map(data){
-            
+
         let map = L.map(map_contaier, {
             center: map_center,
             zoom: min_zoom
@@ -66,9 +70,17 @@ function map03(){ // https://leafletjs.com/examples/choropleth/
                 fillColor: getColor(feature.properties.density),
                 weight: 2,
                 opacity: 1,
-                color: 'white',
+                color: "white",
                 fillOpacity: 0.7
             };
+        }
+
+        function tooltip(feature, layer) {
+            let name = feature.properties.name
+            let density = feature.properties.density
+            let tooltip = name + "<br/>" + density
+
+            layer.bindTooltip(tooltip)
         }
 
         // make the map
@@ -80,9 +92,12 @@ function map03(){ // https://leafletjs.com/examples/choropleth/
                 tileSize: 256
             })
             .addTo(map);
-            
+
             // add the choroplet layer
-            L.geoJson(data, {style: style}).addTo(map);
+            let the_map = L.geoJson(data, {
+                style: style,
+                onEachFeature: tooltip
+            }).addTo(map);
         }
         make_map();
     } 
