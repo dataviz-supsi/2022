@@ -22,9 +22,13 @@ ul{
 	padding: 0;
 	list-style: none;
 }
-.author {
-	width: 200px;
-	display: inline-block;
+.project {
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+}
+.author, .name{
+	width: 300px;
 }
 h1{
 	font-size:  1rem;
@@ -49,8 +53,12 @@ hr{
 	margin:1em 0 1em 0;
 }
 @media only screen and (max-width: 600px) {
-	.author {
+	.project {
 		display: block;
+	}
+	.author, .name{
+		display: block;
+		width: 100%;
 	}
 	li {
 		margin-bottom: 1em;
