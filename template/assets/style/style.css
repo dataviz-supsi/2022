@@ -305,6 +305,12 @@ figcaption{
 	#sidebar_map02 {
 		width: 180px;
 	}
+	#map04{
+		width: calc(100% - 180px);
+	}
+	#sidebar_map04 {
+		width: 180px;
+	}
 
 }
 

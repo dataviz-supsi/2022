@@ -141,11 +141,21 @@ function map04(){
                     property = entry.properties.B
                 }
 
-                let item = document.createElement("li");
+                // let item = document.createElement("li");
 
-                item.innerHTML =  (id+1) + ". " + name + " (" + property  + ")";
+                // item.innerHTML =  (id+1) + ". " + name + " (" + property  + ")";
     
-                sidebar.appendChild(item);
+                // sidebar.appendChild(item);
+
+                let list_item = document.createElement("li");
+                let image = document.createElement("img");
+
+                image.src = "assets/dataviz/sidebar_01/" + category + "_" + id + ".png"
+
+                list_item.innerHTML =  name + "</br>";
+                
+                list_item.appendChild(image);
+                sidebar.appendChild(list_item);
             })
         }
         mySidebar(category)
