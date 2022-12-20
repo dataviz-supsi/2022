@@ -3959,7 +3959,7 @@
 			"id": "48",
 			"properties": {
 				"name": "Texas",
-				"density": 98.07,
+				"density": 98.07,	
 				"A": 121.4,
 				"B": 133.4
 			},
