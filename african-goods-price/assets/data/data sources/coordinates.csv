@@ -1,0 +1,351 @@
+place,nation,name,nation_2,lat,lon
+Alger, Algeria,Algiers, Algeria,36.7753606,3.0601882
+Tindouf, Algeria,Tindouf, Algeria,27.6718402,-8.1397297
+Luanda, Angola,Luanda, Angola,-8.8272699,13.2439512
+Lunda Norte, Angola,Lunda Norte, Angola,-7.381086,20.833799
+Alibori, Benin,Alibori, Benin,11.1311029,2.9322321
+Atakora, Benin,Atakora, Benin,10.3051511,1.3808554
+Atlantique, Benin,Atlantique, Benin,6.3666147,2.0853599
+Borgou, Benin,Borgou, Benin,9.3400159,2.6278258
+Collines, Benin,Collines, Benin,7.9297324,1.9780951
+Couffo, Benin,Kouffo, Benin,6.9489244,1.7041012
+Donga, Benin,Donga, Benin,9.7106683,1.6651614
+Littoral, Benin,Littoral, Benin,6.3676953,2.4252507
+Mono, Benin,Mono, Benin,6.6458524,1.7171404
+Oueme, Benin,Ou'e9m'e9, Benin,6.4990718,2.6253361
+Plateau, Benin,Plateau, Benin,6.7377567,2.6551566
+Zou, Benin,Zou, Benin,7.1820012,1.993632
+Boucle Du Mouhoun, Burkina Faso,Mouhoun, Burkina Faso,12.4617,-3.457987
+Bubanza, Burundi,Bubanza, Burundi,-3.0845915,29.3948368
+Bujumbura Mairie, Burundi,Bujumbura Mairie, Burundi,-3.3638125,29.3675028
+Bujumbura Rural, Burundi,Bujumbura Rural, Burundi,-3.3440762,29.483924
+Bururi, Burundi,Bururi, Burundi,-3.9453227,29.6192469
+Cankuzo, Burundi,Cankuzo, Burundi,-3.2204922,30.5495774
+Cibitoke, Burundi,Cibitoke, Burundi,-2.8919231,29.1244074
+Gitega, Burundi,Gitega, Burundi,-3.4284953,29.9249718
+Karuzi, Burundi,Karuzi, Burundi,-3.1011687,30.1647524
+Kayanza, Burundi,Kayanza, Burundi,-2.9297133,29.6321188
+Kirundo, Burundi,Kirundo, Burundi,-2.5853872,30.0933449
+Makamba, Burundi,Makamba, Burundi,-4.1347916,29.8046322
+Muramvya, Burundi,Muramvya, Burundi,-3.2663248,29.6167289
+Muyinga, Burundi,Muyinga, Burundi,-2.8453256,30.3393883
+Mwaro, Burundi,Mwaro, Burundi,-3.5116676,29.7050017
+Ngozi, Burundi,Ngozi, Burundi,-2.909091,29.8230442
+Rutana, Burundi,Rutana, Burundi,-3.9263608,29.990574
+Ruyigi, Burundi,Ruyigi, Burundi,-3.4733471,30.2501278
+Adamaoua, Cameroon,Adamawa, Cameroon,7.3211962,13.5877302
+Centre, Cameroon,Centre, Cameroon,3.8689867,11.5213344
+Est, Cameroon,East, Cameroon,4.5777265,13.6844409
+Extreme - Nord, Cameroon,Far North, Cameroon,10.6033083,14.3281625
+Littoral, Cameroon,Littoral, Cameroon,4.0429408,9.706203
+Nord, Cameroon,North, Cameroon,9.3070698,13.3934527
+Nord - Ouest, Cameroon,Northwest, Cameroon,5.9614117,10.1516505
+Ouest, Cameroon,West, Cameroon,5.4758083,10.4215565
+Sud - Ouest, Cameroon,Southwest, Cameroon,4.1567995,9.2315519
+Sao Vicente, Cape Verde,S'e3o Vicente, Cape Verde,16.778299,-24.884333
+Bamingui-Bangoran, Central African Republic,Bamingui-Bangoran, Central African Republic,8.4111477,20.648473
+Haut-Mbomou, Central African Republic,Haut-Mbomou, Central African Republic,5.3940869,26.4927242
+Haute-Kotto, Central African Republic,Haute-Kotto, Central African Republic,6.5333319,21.9903299
+K'e9mo, Central African Republic,K'e9mo, Central African Republic,5.7350828,19.0850538
+Lobaye, Central African Republic,Lobaye, Central African Republic,3.8728278,17.9860847
+Mamb'e9r'e9-Kad'e9'ef, Central African Republic,Mamb'e9r'e9-Kad'e9'ef, Central African Republic,4.2593379,15.7877826
+Mbomou, Central African Republic,Mbomou, Central African Republic,4.743526,22.8232963
+Nana-Gribizi, Central African Republic,Nana-Gr'e9bizi, Central African Republic,6.9993145,19.182305
+Nana-Mamb'e9r'e9, Central African Republic,Nana-Mamb'e9r'e9, Central African Republic,5.9354018,15.5921894
+Ombella M'Poko, Central African Republic,Ombella-M'Poko, Central African Republic,5.0726761,18.1717789
+Ouaka, Central African Republic,Ouaka, Central African Republic,5.7680014,20.6755705
+Ouham, Central African Republic,Ouham, Central African Republic,6.4924441,17.4463162
+Ouham Pend'e9, Central African Republic,Ouham-Pend'e9, Central African Republic,6.3147379,16.3806392
+Sangha-Mba'e9r'e9, Central African Republic,Sangha-Mba'e9r'e9, Central African Republic,3.5224201,16.0535833
+Vakaga, Central African Republic,Vakaga, Central African Republic,10.2961965,22.7809907
+Bangui, Central African Republic,Bangui, Central African Republic,4.3907153,18.5509126
+Bouenza, Congo,Bouenza, Republic of the Congo,-4.166012,13.5571517
+Cuvette, Congo,Cuvette, Republic of the Congo,-0.481343,15.896645
+Lekoumou, Congo,L'e9koumou, Republic of the Congo,-3.6850291,13.3510357
+Likouala, Congo,Likouala, Republic of the Congo,1.6187416,18.0623499
+Pool, Congo,Pool, Republic of the Congo,-4.3565973,14.7587752
+Point-Noire, Congo,Pointe-Noire, Republic of the Congo,-4.7975373,11.8503297
+Brazzaville, Congo,Brazzaville, Republic of the Congo,-4.2694407,15.2712256
+Denguele, Cote d'Ivoire,Dengu'e9l'e9, C'f4te d'Ivoire,9.504431,-7.561942
+Savanes, Cote d'Ivoire,Savanes, C'f4te d'Ivoire,9.4574719,-5.6342471
+Comoe, Cote d'Ivoire,Como'e9, C'f4te d'Ivoire,6.7269042,-3.4968431
+Vallee Du Bandama, Cote d'Ivoire,Vall'e9e du Bandama, C'f4te d'Ivoire,7.6906058,-5.0298408
+Yamoussoukro, Cote d'Ivoire,Yamoussoukro, C'f4te d'Ivoire,6.809107,-5.273263
+Montagnes, Cote d'Ivoire,Montagnes, C'f4te d'Ivoire,7.4090813,-7.5501702
+Bandundu, Democratic Republic of the Congo,Kongo Central, Democratic Republic of the Congo,-5.8256559,13.4609047
+Bas-Congo, Democratic Republic of the Congo,Kongo Central, Democratic Republic of the Congo,-5.8256559,13.4609047
+Equateur, Democratic Republic of the Congo,'c9quateur, Democratic Republic of the Congo,0.0470732,18.2564803
+Kasai Occidental, Democratic Republic of the Congo,Kasa'ef, Democratic Republic of the Congo,-6.4230495,20.7887691
+Kasai Oriental, Democratic Republic of the Congo,Kasai-Oriental, Democratic Republic of the Congo,-6.1258942,23.5998111
+Katanga, Democratic Republic of the Congo,Kongo Central, Democratic Republic of the Congo,-5.8256559,13.4609047
+Kinshasa, Democratic Republic of the Congo,Kinshasa, Democratic Republic of the Congo,-4.3217055,15.3125974
+Maniema, Democratic Republic of the Congo,Maniema, Democratic Republic of the Congo,-2.9493766,25.9184499
+Nord-Kivu, Democratic Republic of the Congo,North Kivu, Democratic Republic of the Congo,-1.6665685,29.225652
+Orientale, Democratic Republic of the Congo,Kongo Central, Democratic Republic of the Congo,-5.8256559,13.4609047
+Sud-Kivu, Democratic Republic of the Congo,South Kivu, Democratic Republic of the Congo,-2.5055839,28.8594885
+Ali Sabieh, Djibouti,Ali Sabieh, Djibouti,11.2133809,42.8699249
+Dikhil, Djibouti,Dikhil, Djibouti,11.4225322,42.2093773
+Djibouti, Djibouti,Djibouti, Djibouti,11.5936903,43.1472724
+Obock, Djibouti,Obock, Djibouti,12.2111051,43.1685809
+Tadjourah, Djibouti,Tadjourah, Djibouti,11.7331574,42.6815878
+Maekel, Eritrea,Maekel, Eritrea,15.333333,38.916667
+Semenawi Keih Bahri, Eritrea,Northern Red Sea, Eritrea,16,39
+Addis Ababa, Ethiopia,Addis Ababa, Ethiopia,9.0107934,38.7612525
+Afar, Ethiopia,Afar, Ethiopia,11.7923098,41.0089155
+Amhara, Ethiopia,Amhara, Ethiopia,11.5949663,37.3882251
+Dire Dawa, Ethiopia,Dire Dawa, Ethiopia,9.5913193,41.8566373
+Gambela, Ethiopia,Gambela, Ethiopia,8.2503656,34.5877344
+Hareri, Ethiopia,Harari, Ethiopia,9.3118397,42.1284445
+SNNPR, Ethiopia,Southern Nations, Ethiopia,7.0481029,38.47861
+Tigray, Ethiopia,Tigray, Ethiopia,13.4966644,39.4768259
+Oromia, Ethiopia,Oromia, Ethiopia,8.5410261,39.2705461
+Somali, Ethiopia,Somali, Ethiopia,9.3508526,42.8003788
+Estuaire, Gabon,Estuaire, Gabon,0.390002,9.454001
+Central River, Gambia,Central River Division, The Gambia,13.539083,-14.761229
+Lower River, Gambia,Lower River Division, The Gambia,13.458544,-15.53404
+North Bank, Gambia,North Bank Division, The Gambia,13.493636,-16.089092
+Upper River, Gambia,Upper River Division, The Gambia,13.31004,-14.2150033
+West Coast, Gambia,West Coast Division, The Gambia,13.2743914,-16.6454431
+Ashanti, Ghana,Ashanti, Ghana,6.698081,-1.6230404
+Brong Ahafo, Ghana,Ahafo, Ghana,6.8035466,-2.5172391
+Central, Ghana,Central, Ghana,5.107467,-1.2430793
+Eastern, Ghana,Eastern, Ghana,6.100334,-0.2614572
+Greater Accra, Ghana,Greater Accra, Ghana,5.5571096,-0.2012376
+Northern, Ghana,Northern, Ghana,9.4051992,-0.8423986
+Upper East, Ghana,Upper East, Ghana,10.7853963,-0.8487322
+Upper West, Ghana,Upper West, Ghana,10.0623261,-2.5054273
+Volta, Ghana,Volta, Ghana,6.6126598,0.4688932
+Western, Ghana,Western, Ghana,4.927456,-1.7490216
+Boke, Guinea,Bok'e9, Guinea,10.952242,-14.2760635
+Conakry, Guinea,Conakry, Guinea,9.5170602,-13.6998434
+Faranah, Guinea,Faranah, Guinea,10.042493,-10.740824
+Kankan, Guinea,Kankan, Guinea,10.3835169,-9.3069354
+Kindia, Guinea,Kindia, Guinea,10.0492476,-12.8577997
+Labe, Guinea,Lab'e9, Guinea,11.3230033,-12.282253
+Mamou, Guinea,Mamou, Guinea,10.6619269,-12.1139542
+Nzerekore, Guinea,Nz'e9r'e9kor'e9, Guinea,7.7589949,-8.8160001
+Bafata, Guinea-Bissau,Bafat'e1, Guinea-Bissau,12.1723403,-14.6555027
+Biombo, Guinea-Bissau,Biombo, Guinea-Bissau,11.894183,-15.851309
+Bolama, Guinea-Bissau,Bolama, Guinea-Bissau,11.57763,-15.475261
+Cacheu, Guinea-Bissau,Cacheu, Guinea-Bissau,12.274246,-16.1648911
+Gabu, Guinea-Bissau,Gab'fa, Guinea-Bissau,12.2819517,-14.2260818
+Oio, Guinea-Bissau,Oio, Guinea-Bissau,12.276049,-15.327985
+Quinara, Guinea-Bissau,Quinara, Guinea-Bissau,11.591979,-14.994788
+Sector Autonomo De Bissau, Guinea-Bissau,Bissau Autonomous Sector, Guinea-Bissau,11.861324,-15.583055
+Tombali, Guinea-Bissau,Tombali, Guinea-Bissau,11.2835568,-15.2547152
+Nairobi, Kenya,Nairobi, Kenya,-1.2832533,36.8172449
+Berea, Lesotho,Berea, Lesotho,-29.1963971,27.9175581
+Butha Buthe, Lesotho,Butha-Buthe, Lesotho,-28.8029541,28.5638395
+Leribe, Lesotho,Leribe, Lesotho,-29.0182683,28.2636997
+Mafeteng, Lesotho,Mafeteng, Lesotho,-29.8224468,27.2388281
+Maseru, Lesotho,Maseru, Lesotho,-29.310054,27.478222
+Mohale's Hoek, Lesotho,Mohale's Hoek, Lesotho,-30.0696842,27.8038609
+Mokhotlong, Lesotho,Mokhotlong, Lesotho,-29.2190697,29.0351369
+Qacha's Nek, Lesotho,Qacha's Nek, Lesotho,-29.9656502,28.7380611
+Quthing, Lesotho,Quthing, Lesotho,-30.3601252,27.9855738
+Thaba Tseka, Lesotho,Thaba-Tseka, Lesotho,-29.5699207,28.5938214
+Bomi, Liberia,Bomi, Liberia,6.8686923,-10.824815
+Bong, Liberia,Bong, Liberia,6.996269,-9.470905
+Gbarpolu, Liberia,Gbarpolu, Liberia,7.06667,-10.4875
+Grand Bassa, Liberia,Grand Bassa, Liberia,5.88129,-10.0494002
+Grand Cape Mount, Liberia,Grand Cape Mount, Liberia,6.75257,-11.36695
+Grand Gedeh, Liberia,Grand Gedeh, Liberia,6.068724,-8.1342735
+Grand Kru, Liberia,Grand Kru, Liberia,4.6803743,-8.2332721
+Lofa, Liberia,Lofa, Liberia,8.422419,-9.7525832
+Margibi, Liberia,Margibi, Liberia,6.532326,-10.3488074
+Maryland, Liberia,Maryland, Liberia,4.6355376,-7.7281669
+Montserrado, Liberia,Montserrado, Liberia,6.44725,-10.61428
+Nimba, Liberia,Nimba, Liberia,7.36127,-8.71385
+Rivercess, Liberia,Rivercess, Liberia,5.4521894,-9.5817265
+River Gee, Liberia,River Gee, Liberia,5.197873,-7.8759933
+Sinoe, Liberia,Sinoe, Liberia,5.01111,-9.03889
+Atsinanana, Madagascar,Atsinanana, Madagascar,-18.1553985,49.4098352
+Vatovavy Fitovinany, Madagascar,Vatovavy-Fitovinany, Madagascar,-22.1453242,48.0081397
+Vakinankaratra, Madagascar,Vakinankaratra, Madagascar,-19.871403,47.034667
+Sofia, Madagascar,Sofia, Madagascar,-14.8775272,47.98715
+Menabe, Madagascar,Menabe, Madagascar,-20.2951102,44.2786121
+Melaky, Madagascar,Melaky, Madagascar,-18.0608947,44.023951
+Ihorombe, Madagascar,Ihorombe, Madagascar,-22.403183,46.1289903
+Haute Matsiatra, Madagascar,Haute Matsiatra, Madagascar,-21.456444,47.085149
+Diana, Madagascar,Diana, Madagascar,-12.2779134,49.2913394
+Boeny, Madagascar,Boeny, Madagascar,-15.7181492,46.3172577
+Betsiboka, Madagascar,Betsiboka, Madagascar,-16.949606,46.828176
+Atsimo Atsinanana, Madagascar,Atsimo-Atsinanana, Madagascar,-22.8215796,47.8306554
+Atsimo Andrefana, Madagascar,Atsimo-Andrefana, Madagascar,-23.354173,43.66966
+Anosy, Madagascar,Anosy, Madagascar,-25.0296943,46.9903888
+Androy, Madagascar,Androy, Madagascar,-25.178398,46.0877489
+Analanjirofo, Madagascar,Analanjirofo, Madagascar,-17.382029,49.4099733
+Analamanga, Madagascar,Analamanga, Madagascar,-18.9100122,47.5255809
+Alaotra Mangoro, Madagascar,Alaotra-Mangoro, Madagascar,-17.8237084,48.4267188
+Bamako, Mali,Bamako, Mali,12.649319,-8.000337
+Koulikoro, Mali,Koulikoro, Mali,12.8646318,-7.5561287
+Gao, Mali,Gao, Mali,16.2788129,-0.0412392
+Kayes, Mali,Kayes, Mali,14.443406,-11.437914
+Kidal, Mali,Kidal, Mali,18.4408358,1.4075395
+Mopti, Mali,Mopti, Mali,14.4877275,-4.1892469
+Segou, Mali,S'e9gou, Mali,13.441518,-6.268147
+Sikasso, Mali,Sikasso, Mali,11.3164979,-5.6777499
+Tombouctou, Mali,Tombouctou, Mali,16.7719091,-3.0087272
+Adrar, Mauritania,Adrar, Mauritania,20.5181943,-13.0543928
+Assaba, Mauritania,Assaba, Mauritania,16.6161559,-11.4002038
+Brakna, Mauritania,Brakna, Mauritania,17.0527177,-13.9152949
+Dakhlet-Nouadhibou, Mauritania,Dakhlet Nouadhibou, Mauritania,20.9127045,-17.0503094
+Gorgol, Mauritania,Gorgol, Mauritania,16.1523684,-13.5039868
+Guidimakha, Mauritania,Guidimaka, Mauritania,15.1579884,-12.1847821
+Hodh Ech Chargi, Mauritania,Hodh Ech Chargui, Mauritania,16.6173344,-7.2663798
+Hodh El Gharbi, Mauritania,Hodh El Gharbi, Mauritania,16.6597742,-9.6178808
+Nouakchott, Mauritania,Nouakchott-Nord, Mauritania,18.0792379,-15.9780071
+Tagant, Mauritania,Tagant, Mauritania,18.5545158,-11.4325834
+Tiris-Zemmour, Mauritania,Tiris Zemmour, Mauritania,22.7374428,-12.4728954
+Trarza, Mauritania,Trarza, Mauritania,16.5132493,-15.8099665
+Caprivi, Namibia,Zambezi, Namibia,-17.5073143,24.2793522
+Erongo, Namibia,Erongo, Namibia,-22.6767841,14.5313988
+Hardap, Namibia,Hardap, Namibia,-24.6246442,17.9626696
+Karas, Namibia,Karas, Namibia,-26.5816902,18.1365094
+Khomas, Namibia,Khomas, Namibia,-22.5776104,17.0772739
+Omaheke, Namibia,Omaheke, Namibia,-22.4495283,18.9724666
+Oshana, Namibia,Oshana, Namibia,-17.7826518,15.6986
+Otjozondjupa, Namibia,Otjozondjupa, Namibia,-20.4635829,16.6490992
+Agadez, Niger,Agadez, Niger,16.972556,7.990739
+Diffa, Niger,Diffa, Niger,13.3130749,12.6136611
+Dosso, Niger,Dosso, Niger,13.0496369,3.1944647
+Maradi, Niger,Maradi, Niger,13.501206,7.102534
+Niamey, Niger,Niamey, Niger,13.524834,2.109823
+Tahoua, Niger,Tahoua, Niger,14.889922,5.262149
+Tillaberi, Niger,Tillab'e9ri, Niger,14.2090125,1.4546006
+Zinder, Niger,Zinder, Niger,13.8063421,8.9891659
+Adamawa, Nigeria,Adamawa, Nigeria,9.2089255,12.4802485
+Borno, Nigeria,Borno, Nigeria,11.8395375,13.1536214
+Jigawa, Nigeria,Jigawa, Nigeria,11.6909859,9.3390747
+Kaduna, Nigeria,Kaduna, Nigeria,10.5182899,7.4359863
+Kano, Nigeria,Kano, Nigeria,11.9918671,8.5303654
+Katsina, Nigeria,Katsina, Nigeria,12.9894283,7.6006278
+Kebbi, Nigeria,Kebbi, Nigeria,12.4573462,4.2006114
+Lagos, Nigeria,Lagos, Nigeria,6.4550575,3.3941795
+Oyo, Nigeria,Oyo, Nigeria,7.8410537,3.9315363
+Yobe, Nigeria,Yobe, Nigeria,11.747,11.9608
+Abia, Nigeria,Abia, Nigeria,5.5324032,7.4924165
+Gombe, Nigeria,Gombe, Nigeria,10.38301,11.206567
+Sokoto, Nigeria,Sokoto, Nigeria,13.0610588,5.2373194
+Zamfara, Nigeria,Zamfara, Nigeria,12.1658358,6.6606398
+Kigali City/Umujyi wa Kigali, Rwanda,Kigali, Rwanda,-1.9508938,30.0588764
+East/Iburasirazuba, Rwanda,Eastern, Rwanda,-1.951239,30.434885
+North/Amajyaruguru, Rwanda,Northern, Rwanda,-1.577277,30.0641086
+South/Amajyepfo, Rwanda,Southern, Rwanda,-2.3524553,29.7504906
+West/Iburengerazuba, Rwanda,Western, Rwanda,-2.0700719,29.3520117
+Kedougou, Senegal,K'e9dougou, Senegal,12.55709,-12.185538
+Sedhiou, Senegal,S'e9dhiou, Senegal,12.7099045,-15.557338
+Kaffrine, Senegal,Kaffrine, Senegal,14.10197,-15.548433
+Dakar, Senegal,Dakar, Senegal,14.693425,-17.447938
+Kaolack, Senegal,Kaolack, Senegal,14.138815,-16.076391
+Kolda, Senegal,Kolda, Senegal,12.8936085,-14.939658
+Tambacounda, Senegal,Tambacounda, Senegal,13.7692585,-13.6682901
+Thies, Senegal,Thi'e8s, Senegal,14.791461,-16.925605
+Ziguinchor, Senegal,Ziguinchor, Senegal,12.5634929,-16.2724609
+Diourbel, Senegal,Diourbel, Senegal,14.654562,-16.227822
+Fatick, Senegal,Fatick, Senegal,14.333965,-16.404219
+Louga, Senegal,Louga, Senegal,15.6118551,-16.2233275
+Matam, Senegal,Matam, Senegal,15.656563,-13.255916
+Saint louis, Senegal,Saint-Louis, Senegal,16.0280445,-16.5048686
+Eastern, Sierra Leone,Eastern, Sierra Leone,7.8859364,-11.1863859
+Northern, Sierra Leone,Northern, Sierra Leone,8.88474,-12.04912
+Southern, Sierra Leone,Southern, Sierra Leone,7.962065,-11.73665
+Western Area, Sierra Leone,Western Area, Sierra Leone,8.479004,-13.26795
+Awdal, Somalia,Awdal, Somalia,9.9386691,43.184119
+Bakool, Somalia,Bakool, Somalia,4.1237042,43.8915563
+Bari, Somalia,Bari, Somalia,11.27848,49.179952
+Bay, Somalia,Bay, Somalia,3.119951,43.644462
+Banadir, Somalia,Banaadir, Somalia,2.0349312,45.3419183
+Galgaduud, Somalia,Galguduud, Somalia,5.5360772,46.3830844
+Gedo, Somalia,Gedo, Somalia,3.328,42.219879
+Hiraan, Somalia,Hiran, Somalia,4.7367735,45.2038881
+Juba Hoose, Somalia,Lower Juba, Somalia,-0.3602433,42.5409025
+Shabelle Hoose, Somalia,Lower Shebelle, Somalia,1.7148358,44.7699326
+Juba Dhexe, Somalia,Middle Juba, Somalia,1.083333,42.58333
+Shabelle Dhexe, Somalia,Middle Shebelle, Somalia,2.7797296,45.5042168
+Mudug, Somalia,Mudug, Somalia,6.769726,47.430826
+Nugaal, Somalia,Nugal, Somalia,8.406143,48.483195
+Sanaag, Somalia,Sanaag, Somalia,10.61806,47.37
+Sool, Somalia,Sool, Somalia,8.474261,47.355194
+Togdheer, Somalia,Togdheer, Somalia,9.5277644,45.5381093
+Woqooyi Galbeed, Somalia,Woqooyi Galbeed, Somalia,9.561733,44.061803
+Gauteng, South Africa,Gauteng, South Africa,-26.205,28.049722
+Blue Nile, Sudan,Blue Nile, Sudan,11.8073636,34.3656298
+Kassala, Sudan,Kassala, Sudan,15.4521163,36.3771099
+Khartoum, Sudan,Khartoum, Sudan,15.5635972,32.5349123
+Northern, Sudan,Northern, Sudan,19,30
+North Kordofan, Sudan,North Kurdufan, Sudan,15,29.9999999
+North Darfur, Sudan,North Darfur, Sudan,13.6238244,25.3555559
+Gedaref, Sudan,Al Qadarif, Sudan,14.040941,35.398832
+South Kordofan, Sudan,South Kordofan, Sudan,11.0085934,29.7155751
+South Darfur, Sudan,South Darfur, Sudan,12.0505098,24.8795115
+West Kordofan, Sudan,West Kurdufan, Sudan,11.723705,28.264146
+West Darfur, Sudan,West Darfur, Sudan,13.4435,22.4452278
+White Nile, Sudan,White Nile, Sudan,12.4999838,32.5000166
+Red Sea, Sudan,Red Sea, Sudan,19.619217,37.211709
+Kara, Togo,Kara, Togo,9.5488754,1.1977453
+Maritime, Togo,Maritime, Togo,6.423115,1.2104692
+Plateaux, Togo,Plateaux, Togo,7.5320603,1.1219479
+Savanes, Togo,Savanes, Togo,10.8595454,0.2043122
+Abim, Uganda,Abim, Uganda,2.7161309,33.6637951
+Amudat, Uganda,Amudat, Uganda,1.824823,34.926815
+Kween, Uganda,Kween, Uganda,1.4169235,34.5262307
+Kyankwanzi, Uganda,Kyankwanzi, Uganda,1.2,31.8
+Busia, Uganda,Busia, Uganda,0.4675812,34.0904896
+Gulu, Uganda,Gulu, Uganda,2.770239,32.3044273
+Jinja, Uganda,Jinja, Uganda,0.4353036,33.2055568
+Kabale, Uganda,Kabale, Uganda,-1.338793,30.036318
+Iganga, Uganda,Iganga, Uganda,0.6154854,33.4794594
+Kampala, Uganda,Kampala, Uganda,0.3177137,32.5813539
+Masindi, Uganda,Masindi, Uganda,1.6852537,31.7205937
+Nakapiripirit, Uganda,Nakapiripirit, Uganda,1.8529835,34.7211421
+Soroti, Uganda,Soroti, Uganda,1.7140009,33.6122542
+Kaabong, Uganda,Kaabong, Uganda,3.5091967,34.137534
+Kotido, Uganda,Kotido, Uganda,2.988816,34.03438
+Lira, Uganda,Lira, Uganda,2.2456918,32.896244
+Mbale, Uganda,Mbale, Uganda,1.0711896,34.1749506
+Mbarara, Uganda,Mbarara, Uganda,-0.6107896,30.6533181
+Arusha, United Republic of Tanzania,Arusha, Tanzania,-3.3696827,36.6880794
+Dar-es-salaam, United Republic of Tanzania,Dar es Salaam, Tanzania,-6.8160837,39.2803583
+Dodoma, United Republic of Tanzania,Dodoma, Tanzania,-6.1791181,35.7468174
+Iringa, United Republic of Tanzania,Iringa, Tanzania,-7.7790973,35.6970528
+Kagera, United Republic of Tanzania,Kagera, Tanzania,-1.3311508,31.8125605
+Kigoma, United Republic of Tanzania,Kigoma, Tanzania,-4.5126571,30.0050533
+Kilimanjaro, United Republic of Tanzania,Kilimanjaro, Tanzania,-3.3486456,37.3435249
+Lindi, United Republic of Tanzania,Lindi, Tanzania,-9.9989181,39.7137313
+Manyara, United Republic of Tanzania,Manyara, Tanzania,-4.2100638,35.7491485
+Mara, United Republic of Tanzania,Mara, Tanzania,-1.4998186,33.8083018
+Mbeya, United Republic of Tanzania,Mbeya, Tanzania,-8.906508,33.468672
+Morogoro, United Republic of Tanzania,Morogoro, Tanzania,-6.8161626,37.6693891
+Mtwara, United Republic of Tanzania,Mtwara, Tanzania,-10.28112,40.181341
+Mwanza, United Republic of Tanzania,Mwanza, Tanzania,-2.5196915,32.9014417
+Pwani, United Republic of Tanzania,Pwani, Tanzania,-6.7864318,38.9920175
+Rukwa, United Republic of Tanzania,Rukwa, Tanzania,-7.9523861,31.6231898
+Ruvuma, United Republic of Tanzania,Ruvuma, Tanzania,-10.6787282,35.6483576
+Shinyanga, United Republic of Tanzania,Shinyanga, Tanzania,-3.6562049,33.4271153
+Singida, United Republic of Tanzania,Singida, Tanzania,-4.8195746,34.7498283
+Tabora, United Republic of Tanzania,Tabora, Tanzania,-5.0202431,32.8097724
+Tanga, United Republic of Tanzania,Tanga, Tanzania,-5.0721976,39.0993457
+Geita, United Republic of Tanzania,Geita, Tanzania,-2.8707573,32.2340831
+Katavi, United Republic of Tanzania,Katavi, Tanzania,-6.3429524,31.0729871
+Njombe, United Republic of Tanzania,Njombe, Tanzania,-9.3380477,34.7694862
+Simiyu, United Republic of Tanzania,Simiyu, Tanzania,-2.8035487,33.9869932
+Central, Zambia,Central, Zambia,-14.4434056,28.4465166
+Copperbelt, Zambia,Copperbelt, Zambia,-12.9693056,28.6365894
+Eastern, Zambia,Eastern, Zambia,-13.6391314,32.6458437
+Luapula, Zambia,Luapula, Zambia,-11.2006743,28.8893922
+Lusaka, Zambia,Lusaka, Zambia,-15.4164124,28.2824793
+North-Western, Zambia,Northwestern, Zambia,-12.1820553,26.3990713
+Northern, Zambia,Northern, Zambia,-10.2088378,31.188255
+Southern, Zambia,Southern, Zambia,-16.8141943,26.9778589
+Western, Zambia,Western, Zambia,-15.2668751,23.1365365
+Bulawayo, Zimbabwe,Bulawayo, Zimbabwe,-20.1560599,28.5887063
+Harare, Zimbabwe,Harare, Zimbabwe,-17.831773,31.045686
+Manicaland, Zimbabwe,Manicaland, Zimbabwe,-18.974656,32.670473
+Mashonaland Central, Zimbabwe,Mashonaland Central, Zimbabwe,-17.2989727,31.3299701
+Mashonaland East, Zimbabwe,Mashonaland East, Zimbabwe,-18.190098,31.545542
+Mashonaland West, Zimbabwe,Mashonaland West, Zimbabwe,-17.3615308,30.1929353
+Masvingo, Zimbabwe,Masvingo, Zimbabwe,-20.0720142,30.8341936
+Matabeleland North, Zimbabwe,Matabeleland North, Zimbabwe,-18.9346723,27.7728319
+Matabeleland South, Zimbabwe,Matabeleland South, Zimbabwe,-20.9414292,29.0036855
+Midlands, Zimbabwe,Midlands, Zimbabwe,-19.4616316,29.8205953
