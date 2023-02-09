@@ -298,7 +298,7 @@ function map05(){
                     case "2021": property = entry.properties.y2021;
                 }
                 
-                console.log(prev_category, name, property)
+                // console.log(prev_category, name, property)
 
                 let list_item = document.createElement("li");
                 let image = document.createElement("img");
